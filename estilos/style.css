@@ -109,9 +109,11 @@ p{
     top:4px;
 }
 .back{
+    
     height: 64px;
     margin-left:16px;
 }
+
 .conteudo{
     width: 614px;
     border-radius: 3px;
@@ -143,13 +145,18 @@ strong{
     font-weight: bold;
 }
 .icons-abaixo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-abaixo div{
     width: 120px;
     display: flex;
     height: 30px;
     justify-content: space-between;
     margin-left: 10px;
     margin-top: 5px;
-    
 }
 .sidebar{
     width: 293px;
